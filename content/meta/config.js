@@ -1,19 +1,19 @@
 module.exports = {
-  siteTitle: "HeroBlog - a GatsbyJS starter", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-hero-blog.greglobinski.com",
+  siteTitle: "Techie Support - Solving business problems with technology", // <title>
+  shortSiteTitle: "Techie Support - Solving business problems with technology", // <title> ending for posts and pages
+  siteDescription: "Techie Support is a consulting firm that solves business problems with technology.",
+  siteUrl: "https://techiesupportllc.github.io",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
 
   /* author */
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "Techie Support",
+  authorTwitterAccount: "techiesupportllc",
 
   /* info */
-  headerTitle: "greg lobinski",
-  headerSubTitle: "presents another one GatsbyJS starter",
+  headerTitle: "Techie Support",
+  headerSubTitle: "Solving business problems with technology",
 
   /* manifest.json */
   manifestName: "HeroBlog - a GatsbyJS starter",
@@ -32,8 +32,8 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "http://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/techiesupportllc" },
+    { name: "twitter", url: "https://twitter.com/techiesupportllc" },
+    { name: "facebook", url: "http://facebook.com/techiesupportllc" }
   ]
 };
