@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Techie Support - Boutique Web Development Firm`,
+    title: `Techie Support`,
     author: `Techie Support`,
-    description: `Bending modern web technologies to our will.`,
+    description: `Radically different web development`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `techiehelpline`,

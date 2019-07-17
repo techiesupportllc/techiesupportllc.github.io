@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author}</strong> is a boutique web development firm located in &#9728; Phoenix.
+        <strong>{author}</strong> is a radically different web development firm located in &#9728; Phoenix.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           Follow us on Twitter!
