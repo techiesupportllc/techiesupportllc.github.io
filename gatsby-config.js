@@ -3,7 +3,7 @@ module.exports = {
     title: `Techie Support`,
     author: `Techie Support`,
     description: `Radically different web development`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://techiesupport.co`,
     social: {
       twitter: `techiehelpline`,
     },
