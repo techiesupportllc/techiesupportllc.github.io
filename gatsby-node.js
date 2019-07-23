@@ -1,5 +1,6 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
+const kebabCase = require("lodash.kebabcase")
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
@@ -19,6 +20,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                tags
               }
             }
           }
@@ -29,6 +31,37 @@ exports.createPages = ({ graphql, actions }) => {
     if (result.errors) {
       throw result.errors
     }
+
+    var uniq = arrArg => {
+      return arrArg.filter((elem, pos, arr) => {
+        return arr.indexOf(elem) == pos
+      })
+    }
+
+    let tags = []
+
+    // Iterate through each post, putting all found tags into 'tags'
+    posts.forEach(edge => {
+      if (edge.node.frontmatter.tags) {
+        tags = tags.concat(edge.node.frontmatter.tags)
+      }
+    })
+
+    // Eliminate duplicate tags
+    tags = uniq(tags)
+
+    const tagTemplate = path.resolve("src/templates/tags.js")
+
+    //Make tag pages
+    tags.forEach(tag => {
+      createPage({
+        path: '/tags/${kebabCase(tag)}/',
+        component: tagTemplate,
+        context: {
+          tag,
+        },
+      })
+    })
 
     // Create blog posts pages.
     const posts = result.data.allMarkdownRemark.edges

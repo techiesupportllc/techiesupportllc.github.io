@@ -2,6 +2,8 @@
 title: New Beginnings
 date: "2019-07-17"
 description: We're back!
+tags:
+- history
 ---
 
 ## The Harsh Reality
