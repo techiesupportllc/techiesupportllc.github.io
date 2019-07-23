@@ -32,6 +32,24 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
 
+    // Create blog posts pages.
+    const posts = result.data.allMarkdownRemark.edges
+
+    posts.forEach((post, index) => {
+      const previous = index === posts.length - 1 ? null : posts[index + 1].node
+      const next = index === 0 ? null : posts[index - 1].node
+
+      createPage({
+        path: post.node.fields.slug,
+        component: blogPost,
+        context: {
+          slug: post.node.fields.slug,
+          previous,
+          next,
+        },
+      })
+    })
+
     var uniq = arrArg => {
       return arrArg.filter((elem, pos, arr) => {
         return arr.indexOf(elem) == pos
@@ -59,24 +77,6 @@ exports.createPages = ({ graphql, actions }) => {
         component: tagTemplate,
         context: {
           tag,
-        },
-      })
-    })
-
-    // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
-
-      createPage({
-        path: post.node.fields.slug,
-        component: blogPost,
-        context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
         },
       })
     })
