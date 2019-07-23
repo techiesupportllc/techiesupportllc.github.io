@@ -5,7 +5,7 @@ module.exports = {
     description: `Radically different web development`,
     siteUrl: `https://techiesupport.co`,
     social: {
-      twitter: `techiehelpline`,
+      twitter: `techiesupportco`,
     },
   },
   plugins: [
