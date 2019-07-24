@@ -1,9 +1,8 @@
 ---
 title: Three Programming Misconceptions
-date: "2019-07-23"
+date: 2019-07-23
 description: Plus some great learning resources!
-tags:
-- programming
+tags: ['programming']
 ---
 
 ## Misconceptions

@@ -1,10 +1,8 @@
 ---
 title: Should You Just Use WordPress?
-date: "2019-07-22"
+date: 2019-07-22
 description: This is common advice, but is it the right move for your business?
-tags:
-- wordpress
-- jamstack
+tags: ['wordpress', 'jamstack']
 ---
 
 ## Setting the Stage
