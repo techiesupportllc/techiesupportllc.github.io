@@ -1,94 +1,41 @@
+// create blog posts from markdown files
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const _ = require('lodash')
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  const { createNodeField } = actions
+  if (node.internal.type === `MarkdownRemark`) {
+    const slug = createFilePath({ node, getNode, basePath: `posts` })
+    createNodeField({
+      node,
+      name: `slug`,
+      value: '/blog' + slug,
+    })
+  }
+}
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const tagTemplate = path.resolve('./src/templates/tags.js')
-
-  return graphql(
-    `
-      {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                tags
-              }
+  return graphql(`
+    {
+      allMarkdownRemark {
+        edges {
+          node {
+            fields {
+              slug
             }
           }
         }
       }
-    `
-  ).then(result => {
-    if (result.errors) {
-      throw result.errors
     }
-
-    // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges
-
-    posts.forEach((post, index) => {
-      const previous = index === posts.length - 1 ? null : posts[index + 1].node
-      const next = index === 0 ? null : posts[index - 1].node
-
+  `).then(result => {
+    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
-        path: post.node.fields.slug,
-        component: blogPost,
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/blog-post.js`),
         context: {
-          slug: post.node.fields.slug,
-          previous,
-          next,
+          slug: node.fields.slug,
         },
       })
     })
-
-    // Tag pages
-    let tags = []
-
-    // Iterate through each post, putting all found tags into 'tags'
-    _.each(posts, edge => {
-      if (_.get(edge, "node.frontmatter.tags")) {
-        tags = tags.concat(edge.node.frontmatter.tags)
-      }
-    })
-
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
-
-    //Make tag pages
-    tags.forEach(tag => {
-      createPage({
-        path: '/tags/${_.kebabCase(tag)}/',
-        component: tagTemplate,
-        context: {
-          tag,
-        },
-      })
-    })
-
-    return null
   })
-}
-
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-
-  if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
-  }
 }

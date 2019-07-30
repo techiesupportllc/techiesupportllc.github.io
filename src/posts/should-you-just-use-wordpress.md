@@ -1,11 +1,7 @@
 ---
-title: Should You Just Use WordPress?
-date: 2019-07-22
-description: This is common advice, but is it the right move for your business?
-tags: ['wordpress', 'jamstack']
+title: "Should You Just Use WordPress?"
+date: "2019-07-22"
 ---
-
-## Setting the Stage
 
 If you’re a business owner, picking the right platform for your website is confusing.  It seems like there are about 100,000 different options out there.  Every one of them says they're the best, the cheapest, the fastest, you name it.  Maybe you ask a tech-savvy friend for some advice.  What do they tell you?
 

@@ -1,11 +1,7 @@
 ---
-title: Three Programming Misconceptions
-date: 2019-07-23
-description: Plus some great learning resources!
-tags: ['programming']
+title: "Three Programming Misconceptions"
+date: "2019-07-23"
 ---
-
-## Misconceptions
 
 What do you think of when you hear the word "programming"?
 
@@ -34,4 +30,3 @@ Thankfully, we all have enough stubbornness in us to learn programming.  If you'
 3.  [**The Odin Project**](https://www.theodinproject.com/).  This site has a fantastic web development curriculum and even helps to teach you how to get hired in a programming role.  You should be expecting this by now, but this one is also *100% free*!
 
 With the right resources and enough stubbornness (maybe *persistence* is a better word choice), anyone can learn programming.  If you've been thinking about taking the plunge, there's no better time than the present.
-
