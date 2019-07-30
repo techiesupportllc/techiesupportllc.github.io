@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Techie Support`,
+    description: `Radically different web development!`,
+    siteUrl: `https://techiesupport.co`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
