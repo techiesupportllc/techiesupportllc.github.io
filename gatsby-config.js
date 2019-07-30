@@ -6,6 +6,24 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-page-transitions`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Techie Support`,
+        short_name: `Techie Support`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -15,6 +33,20 @@ module.exports = {
             options: {
               maxWidth: 800,
             },
+          },
+          {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              width: 800,
+              related: false,
+              noIframeBorder: true,
+            },
+          },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+          {
+            resolve: `gatsby-remark-reading-time`,
           },
         ],
       },

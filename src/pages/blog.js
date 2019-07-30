@@ -10,8 +10,8 @@ export default ({ data }) => {
       <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <Link to={'/blog' + node.fields.slug}>
-            <h3>{node.frontmatter.title}{" "}</h3>
+          <Link to={node.fields.slug}>
+            <h3>{node.frontmatter.title}</h3>
           </Link>
           <small style={{ color: `#bbb` }}>{node.frontmatter.date}</small>
           <p>{node.excerpt}</p>
