@@ -10,7 +10,6 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-page-transitions`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

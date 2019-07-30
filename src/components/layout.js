@@ -1,6 +1,5 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import PageTransition from "gatsby-plugin-page-transitions"
 import { rhythm } from "../utils/typography"
 
 const ListLink = props => (
@@ -28,9 +27,7 @@ export default ({ children }) => {
         <ListLink to="/">Home</ListLink>
         <ListLink to="/blog/">Blog</ListLink>
       </ul>
-      <PageTransition>
-        {children}
-      </PageTransition>
+      {children}
     </div>
   )
 }
