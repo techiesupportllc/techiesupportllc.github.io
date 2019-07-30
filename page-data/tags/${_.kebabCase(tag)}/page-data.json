@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-templates-tags-js","path":"/tags/${_.kebabCase(tag)}/","webpackCompilationHash":"f02dcedfa0e14d9c5cc1","result":{"data":{"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/new-beginnings/"},"frontmatter":{"title":"New Beginnings"}}}]}},"pageContext":{"isCreatedByStatefulCreatePages":false,"tag":"history"}}}
