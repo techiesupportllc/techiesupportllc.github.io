@@ -1,6 +1,7 @@
 ---
 title: "Three Programming Misconceptions"
 date: "2019-07-23"
+featuredImage: "../images/three-programming-misconceptions.jpg"
 ---
 
 What do you think of when you hear the word "programming"?

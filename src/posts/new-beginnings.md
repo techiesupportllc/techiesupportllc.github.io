@@ -1,6 +1,7 @@
 ---
 title: "New Beginnings"
 date: "2019-07-17"
+featuredImage: "../images/new-beginnings.jpg"
 ---
 
 After a long hiatus, Techie Support is back!  We were founded back in 2013 to provide (perhaps a little too) affordable IT support services for small businesses.  That led to modest success in the local Phoenix market, but here's the reality:
