@@ -3,6 +3,7 @@ import { useStaticQuery, graphql, Link } from "gatsby"
 import { Animated, FadeAnimations } from "animated-styled-components"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import SEO from "../components/SEO"
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -18,6 +19,7 @@ export default ({ children }) => {
   )
   return (
     <div style={{ display: "flex", flexDirection: "column", margin: "3rem auto", maxWidth: 1200, padding: "0 1rem" }}>
+      <SEO />
       <Header />
       <Animated animation={{
         in: FadeAnimations.FadeIn,

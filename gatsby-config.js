@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Techie Support`,
-    description: `Radically different web development!`,
+    description: `Radically different web development`,
     siteUrl: `https://techiesupport.co`,
+    image: `./images/logo.png`,
+    twitterUsername: `@techiesupportco`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -12,6 +14,7 @@ module.exports = {
     `gatsby-plugin-feed`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
