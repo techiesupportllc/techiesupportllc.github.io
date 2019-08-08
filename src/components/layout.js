@@ -1,5 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
+import { Animated, FadeAnimations } from "animated-styled-components"
 import { rhythm } from "../utils/typography"
 
 const ListLink = props => (
@@ -27,7 +28,12 @@ export default ({ children }) => {
         <ListLink to="/">Home</ListLink>
         <ListLink to="/blog/">Blog</ListLink>
       </ul>
-      {children}
+      <Animated animation={{
+        in: FadeAnimations.FadeIn,
+        duration_in: 1
+      }}>
+        {children}
+      </Animated>
     </div>
   )
 }

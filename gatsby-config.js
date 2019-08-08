@@ -36,6 +36,13 @@ module.exports = {
             },
           },
           {
+            resolve: `gatsby-remark-external-links`,
+            options: {
+              target: `_self`,
+              rel: `nofollow`
+            },
+          },
+          {
             resolve: `gatsby-remark-embed-video`,
             options: {
               width: 800,

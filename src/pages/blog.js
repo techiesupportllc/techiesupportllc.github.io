@@ -13,7 +13,7 @@ export default ({ data }) => {
           <Link to={node.fields.slug}>
             <h3>{node.frontmatter.title}</h3>
           </Link>
-          <small style={{ color: `#bbb` }}>{node.frontmatter.date}</small>
+          <small style={{ color: `#bbb` }}>{node.frontmatter.date} - {node.timeToRead} minute read</small>
           <p>{node.excerpt}</p>
         </div>
       ))}
@@ -36,6 +36,7 @@ export const query = graphql`
             slug
           }
           excerpt
+          timeToRead
         }
       }
     }
