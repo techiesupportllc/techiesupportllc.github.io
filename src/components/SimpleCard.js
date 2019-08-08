@@ -6,6 +6,7 @@ import CardContent from "@material-ui/core/CardContent"
 import Button from "@material-ui/core/Button"
 import Typography from "@material-ui/core/Typography"
 import { Link } from "gatsby"
+import Img from "gatsby-image"
 
 const useStyles = makeStyles({
   card: {
@@ -22,6 +23,9 @@ const useStyles = makeStyles({
   pos: {
     marginBottom: 12,
   },
+  media: {
+    height: 140,
+  },
 });
 
 export default function SimpleCard(props) {
@@ -30,6 +34,9 @@ export default function SimpleCard(props) {
   return (
     <Card className={classes.card}>
       <CardContent>
+        <Link to={props.link}>
+          <Img fluid={props.featuredImage} style={{ marginBottom: "1.5rem" }} />
+        </Link>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
           {props.date}
         </Typography>
