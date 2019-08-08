@@ -51,11 +51,11 @@ export default function SimpleCard(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">
           <Link to={props.link} style={{ textShadow: "none", backgroundImage: "none" }}>
-            Read Post
+            <Button size="small">
+              Read Post
+            </Button>
           </Link>
-        </Button>
       </CardActions>
     </Card>
   );

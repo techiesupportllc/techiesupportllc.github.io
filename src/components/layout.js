@@ -1,14 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { Animated, FadeAnimations } from "animated-styled-components"
-import { rhythm } from "../utils/typography"
+import Header from "../components/Header"
 import Footer from "../components/Footer"
-
-const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
-    <Link to={props.to}>{props.children}</Link>
-  </li>
-)
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -23,17 +17,15 @@ export default ({ children }) => {
     `
   )
   return (
-    <div style={{ margin: `0 auto`, maxWidth: 700, padding: `${rhythm(2)}` }}>
-      <h3>{data.site.siteMetadata.title}</h3>
-      <ul style={{ listStyle: `none`, float: `right` }}>
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/blog/">Blog</ListLink>
-      </ul>
+    <div style={{ display: "flex", flexDirection: "column", margin: "3rem auto", maxWidth: 1200, padding: "0 1rem" }}>
+      <Header />
       <Animated animation={{
         in: FadeAnimations.FadeIn,
         duration_in: 1
       }}>
+      <main style={{ marginTop: "4rem" }}>
         {children}
+      </main>
       </Animated>
       <Footer />
     </div>
