@@ -2,6 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import { Animated, FadeAnimations } from "animated-styled-components"
 import { rhythm } from "../utils/typography"
+import Footer from "../components/Footer"
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -34,6 +35,7 @@ export default ({ children }) => {
       }}>
         {children}
       </Animated>
+      <Footer />
     </div>
   )
 }
