@@ -26,6 +26,14 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         gatsbyRemarkPlugins: [
@@ -52,9 +60,6 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-reading-time`,
           },
         ],
       },
