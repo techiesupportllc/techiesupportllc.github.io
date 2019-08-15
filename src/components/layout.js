@@ -18,18 +18,20 @@ export default ({ children }) => {
     `
   )
   return (
-    <div style={{ display: "flex", flexDirection: "column", margin: "3rem auto", maxWidth: 1200, padding: "0 1rem" }}>
+    <>
       <SEO />
-      <Header />
-      <Animated animation={{
-        in: FadeAnimations.FadeIn,
-        duration_in: 1
-      }}>
-      <main style={{ marginTop: "4rem" }}>
-        {children}
-      </main>
-      </Animated>
-      <Footer />
-    </div>
+      <div style={{ display: "flex", flexDirection: "column", maxWidth: 1200, padding: "1rem", minHeight: "100vh" }}>
+        <Header />
+        <main style={{ marginTop: "4rem", flex: 1 }}>
+          <Animated animation={{
+          in: FadeAnimations.FadeIn,
+          duration_in: 1
+          }}>
+            {children}
+          </Animated>
+        </main>
+        <Footer />
+      </div>
+    </>
   )
 }

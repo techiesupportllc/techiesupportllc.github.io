@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import PropTypes from "prop-types"
 import AppBar from "@material-ui/core/AppBar"
 import Toolbar from "@material-ui/core/Toolbar"
@@ -47,7 +47,9 @@ export default function HideAppBar(props) {
             <Grid container direction="row" justify="space-between" alignItems="center">
               <Grid item>
                 <div style={{ marginTop: "1.5rem" }}>
-                  <img src={Logo} height="35" />
+                  <Link to="/">
+                    <img src={Logo} height="35" />
+                  </Link>
                 </div>
               </Grid>
               <Grid item>
