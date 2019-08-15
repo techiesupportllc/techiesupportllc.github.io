@@ -15,6 +15,6 @@ export default () => {
     }
   `)
   return (
-    <Img fluid={data.file.childImageSharp.fluid} />
+    <Img fluid={data.file.childImageSharp.fluid} style={{ borderRadius: "5px" }} />
   )
 }

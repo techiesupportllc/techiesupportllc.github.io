@@ -35,7 +35,7 @@ export default function SimpleCard(props) {
     <Card className={classes.card}>
       <CardContent>
         <Link to={props.link}>
-          <Img className={classes.media} fluid={props.featuredImage} style={{ marginBottom: "1.5rem" }} />
+          <Img className={classes.media} fluid={props.featuredImage} style={{ marginBottom: "1.5rem", borderRadius: "5px" }} />
         </Link>
         <Typography className={classes.title} color="textSecondary" gutterBottom>
           {props.date}

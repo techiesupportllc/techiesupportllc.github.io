@@ -9,7 +9,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <h1>{post.frontmatter.title}</h1>
-      <Img fluid={featuredImgFluid} style={{ marginBottom: "1.5rem" }} />
+      <Img fluid={featuredImgFluid} style={{ marginBottom: "1.5rem", borderRadius: "5px" }} />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
