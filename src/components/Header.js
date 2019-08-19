@@ -1,64 +1,28 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
-import PropTypes from "prop-types"
-import AppBar from "@material-ui/core/AppBar"
-import Toolbar from "@material-ui/core/Toolbar"
-import CssBaseline from "@material-ui/core/CssBaseline"
-import useScrollTrigger from "@material-ui/core/useScrollTrigger"
-import Slide from "@material-ui/core/Slide"
-import Grid from "@material-ui/core/Grid"
-import NavButtons from "../components/NavButtons"
+import { Link } from "gatsby"
 import Logo from "../images/logo.png"
+import styled from "styled-components"
+import NavButtons from "./NavButtons"
 
-function HideOnScroll(props) {
-  const { children, window } = props;
-  const trigger = useScrollTrigger();
+const HeaderDiv = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  margin: 1rem 0 0 0;
+  img {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+`;
 
-  return (
-    <Slide appear={false} direction="down" in={!trigger}>
-      {children}
-    </Slide>
-  );
-}
+const Header = props => (
+  <HeaderDiv>
+    <Link to="/">
+      <img src={Logo} height="40" style={{ margin: "0 0 0 1rem" }} />
+    </Link>
+    <NavButtons />
+  </HeaderDiv>
+)
 
-HideOnScroll.propTypes = {
-  children: PropTypes.element.isRequired,
-}
-
-export default function HideAppBar(props) {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  )
-
-  return (
-    <React.Fragment>
-      <CssBaseline />
-      <HideOnScroll {...props}>
-        <AppBar color="default">
-          <Toolbar>
-            <Grid container direction="row" justify="space-between" alignItems="center">
-              <Grid item>
-                <div style={{ marginTop: "1.5rem" }}>
-                  <Link to="/">
-                    <img src={Logo} height="35" />
-                  </Link>
-                </div>
-              </Grid>
-              <Grid item>
-                <NavButtons />
-              </Grid>
-            </Grid>
-          </Toolbar>
-        </AppBar>
-      </HideOnScroll>
-    </React.Fragment>
-  )
-}
+export default Header

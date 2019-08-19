@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import { Animated, FadeAnimations } from "animated-styled-components"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
@@ -18,11 +18,11 @@ export default ({ children }) => {
     `
   )
   return (
-    <>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
       <SEO />
-      <div style={{ display: "flex", flexDirection: "column", maxWidth: 1200, padding: "1rem", minHeight: "100vh" }}>
-        <Header />
-        <main style={{ marginTop: "4rem", flex: 1 }}>
+      <Header />
+      <div style={{ display: "flex", flexDirection: "column", maxWidth: 800, minHeight: "100vh" }}>
+        <main style={{ flex: 1 }}>
           <Animated animation={{
           in: FadeAnimations.FadeIn,
           duration_in: 1
@@ -32,6 +32,6 @@ export default ({ children }) => {
         </main>
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
