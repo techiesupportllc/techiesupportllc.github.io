@@ -1,8 +1,12 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Img from "gatsby-image"
 import FeaturedImage from "../components/FeaturedImage"
+import styled from "styled-components"
+
+const PostContainer = styled.div`
+
+`;
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -10,7 +14,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <FeaturedImage title={post.frontmatter.title} featuredImage={featuredImgFluid} />
-      <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <PostContainer dangerouslySetInnerHTML={{ __html: post.html }} />
     </Layout>
   )
 }
