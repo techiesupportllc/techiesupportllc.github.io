@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const NavButtonDiv = styled.div`
-  margin-right: 1rem;
+
 `;
 
 const PrimaryNavButton = styled.button`
@@ -11,12 +11,14 @@ const PrimaryNavButton = styled.button`
   text-transform: uppercase;
   text-decoration: none;
   background: #f6993f;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 15px;
   border: none;
   display: inline-block;
   margin-left: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 `;
 
 const SecondaryNavButton = styled.button`
@@ -24,11 +26,13 @@ const SecondaryNavButton = styled.button`
   text-transform: uppercase;
   text-decoration: none;
   background: #dae1e7;
-  padding: 5px 10px 5px 10px;
+  padding: 5px 15px 5px 15px;
   border: none;
   display: inline-block;
   margin-left: 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  border-radius: 5px;
 `;
 
 const NavButtons = props => (
@@ -37,8 +41,11 @@ const NavButtons = props => (
       <SecondaryNavButton>Home</SecondaryNavButton>
     </Link>
     <Link to="/blog/">
-      <PrimaryNavButton>Blog</PrimaryNavButton>
+      <SecondaryNavButton>Blog</SecondaryNavButton>
     </Link>
+    <a href="mailto:help@techiesupport.co?subject=Let's get started!&body=Thanks for reaching out!  What does your next project look like?  Let us know so we can make sure we'll be a good fit. :)">
+      <PrimaryNavButton>Get Started</PrimaryNavButton>
+    </a>
   </NavButtonDiv>
 )
 

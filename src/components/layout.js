@@ -4,6 +4,14 @@ import { Animated, FadeAnimations } from "animated-styled-components"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import SEO from "../components/SEO"
+import styled from "styled-components"
+
+const Page = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem 0 1rem;
+`;
 
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -18,7 +26,7 @@ export default ({ children }) => {
     `
   )
   return (
-    <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+    <Page>
       <SEO />
       <Header />
       <div style={{ display: "flex", flexDirection: "column", maxWidth: 800, minHeight: "100vh" }}>
@@ -32,6 +40,6 @@ export default ({ children }) => {
         </main>
         <Footer />
       </div>
-    </div>
+    </Page>
   )
 }

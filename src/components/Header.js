@@ -19,7 +19,7 @@ const HeaderDiv = styled.div`
 const Header = props => (
   <HeaderDiv>
     <Link to="/">
-      <img src={Logo} height="40" style={{ margin: "0 0 0 1rem" }} />
+      <img src={Logo} height="40" />
     </Link>
     <NavButtons />
   </HeaderDiv>
