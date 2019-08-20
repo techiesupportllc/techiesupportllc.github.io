@@ -37,7 +37,7 @@ export default () => (
   <Layout>
     <MainHeading>Radically different web development</MainHeading>
     <Hero />
-    <SecondaryHeading>Ever seen snow on a cactus? 🌵<br/>It's unquestionably memorable&mdash;just like us.</SecondaryHeading>
+    <SecondaryHeading>Ever seen snow on a cactus?<br/>It's unquestionably memorable&mdash;just like us.</SecondaryHeading>
     <Paragraph><b>We'll build, host and maintain</b> your website or web app for one low monthly cost.</Paragraph>
     <Paragraph>We're <i>light years</i> more affordable than hiring a full-time web developer.</Paragraph>
     <Paragraph>To put it in context:</Paragraph>

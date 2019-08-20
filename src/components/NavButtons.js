@@ -37,9 +37,6 @@ const SecondaryNavButton = styled.button`
 
 const NavButtons = props => (
   <NavButtonDiv>
-    <Link to="/">
-      <SecondaryNavButton>Home</SecondaryNavButton>
-    </Link>
     <Link to="/blog/">
       <SecondaryNavButton>Blog</SecondaryNavButton>
     </Link>
