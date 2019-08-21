@@ -14,7 +14,7 @@ const PrimaryNavButton = styled.button`
   padding: 5px 15px 5px 15px;
   border: none;
   display: inline-block;
-  margin-left: 1rem;
+  margin: 0 0 0 1rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   font-weight: bold;
   cursor: pointer;
@@ -37,6 +37,9 @@ const SecondaryNavButton = styled.button`
 
 const NavButtons = props => (
   <NavButtonDiv>
+    <Link to="/">
+      <SecondaryNavButton>Home</SecondaryNavButton>
+    </Link>
     <Link to="/blog/">
       <SecondaryNavButton>Blog</SecondaryNavButton>
     </Link>

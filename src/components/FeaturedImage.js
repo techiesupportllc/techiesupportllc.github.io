@@ -3,17 +3,11 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 
 const ImageWrapper = styled.div`
-  padding: 2rem 0 2rem 0;
+  padding: 0 0 2rem 0;
 `;
 
 const Title = styled.h1`
-  margin: 0;
-  z-index: 2;
-  position: absolute;
-  background: #dae1e7;
-  padding: 1rem;
-  opacity: 0.9;
-  border-radius: 0 0 5px 0;
+  font-size: 3rem;
 `;
 
 const FeaturedImage = props => (

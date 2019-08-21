@@ -5,7 +5,12 @@ import FeaturedImage from "../components/FeaturedImage"
 import styled from "styled-components"
 
 const PostContainer = styled.div`
-
+  h2 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.25rem;
+  }
 `;
 
 export default ({ data }) => {

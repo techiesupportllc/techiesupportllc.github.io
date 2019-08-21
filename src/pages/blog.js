@@ -1,17 +1,21 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import SimpleCard from "../components/SimpleCard"
+import PostCard from "../components/PostCard"
+import styled from "styled-components"
+
+const MainHeading = styled.h1`
+  font-size: 3rem;
+`;
 
 export default ({ data }) => {
 
   return (
     <Layout>
-      <h1>Blog</h1>
-      <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+      <MainHeading>Blog</MainHeading>
       {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id} style={{ marginTop: "1.5rem", marginBottom: "1.5rem" }}>
-          <SimpleCard featuredImage={node.frontmatter.featuredImage.childImageSharp.fluid} date={node.frontmatter.date} title={node.frontmatter.title} readingTime={node.timeToRead} excerpt={node.excerpt} link={node.fields.slug} />
+        <div key={node.id} style={{ marginBottom: "3rem" }}>
+          <PostCard featuredImage={node.frontmatter.featuredImage.childImageSharp.fluid} date={node.frontmatter.date} title={node.frontmatter.title} readingTime={node.timeToRead} excerpt={node.excerpt} link={node.fields.slug} />
         </div>
       ))}
     </Layout>
