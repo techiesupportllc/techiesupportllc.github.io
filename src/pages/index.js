@@ -46,6 +46,6 @@ export default () => (
     <Paragraph>With us, it's <i>simple</i>.  You pay one flat rate of $999 per month.</Paragraph>
     <Paragraph>Our highly skilled team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained -- all while you save time and money.</Paragraph>
     <Paragraph><b>It's a win-win.</b></Paragraph>
-    <a href="mailto:help@techiesupport.co?subject=Let's get started!&body=Thanks for reaching out!  What does your next project look like?  Let us know so we can make sure we'll be a good fit. :)"><CTAButton>Get Started</CTAButton></a>
+    <a href="mailto:help@techiesupport.co?subject=Let's get started!&body=Thanks for reaching out!  Tell us about your next project so we can make sure we'll be a good fit. :)"><CTAButton>Get Started</CTAButton></a>
   </Layout>
 )

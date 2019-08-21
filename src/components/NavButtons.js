@@ -43,7 +43,7 @@ const NavButtons = props => (
     <Link to="/blog/">
       <SecondaryNavButton>Blog</SecondaryNavButton>
     </Link>
-    <a href="mailto:help@techiesupport.co?subject=Let's get started!&body=Thanks for reaching out!  What does your next project look like?  Let us know so we can make sure we'll be a good fit. :)">
+    <a href="mailto:help@techiesupport.co?subject=Let's get started!&body=Thanks for reaching out!  Tell us about your next project so we can make sure we'll be a good fit. :)">
       <PrimaryNavButton>Get Started</PrimaryNavButton>
     </a>
   </NavButtonDiv>

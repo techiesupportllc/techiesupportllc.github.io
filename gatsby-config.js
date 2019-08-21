@@ -80,5 +80,11 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#f6993f`,
+      },
+    },
   ],
 }
