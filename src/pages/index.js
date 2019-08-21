@@ -37,12 +37,12 @@ export default () => (
   <Layout>
     <MainHeading>Radically different web development</MainHeading>
     <Hero />
-    <SecondaryHeading>Ever seen snow on a cactus?<br/>It's unquestionably memorable&mdash;just like us.</SecondaryHeading>
+    <SecondaryHeading>Ever seen snow on a cactus?<br/>It's unforgettable&mdash;just like us.</SecondaryHeading>
     <Paragraph><b>We'll build, host and maintain</b> your website or web app for one low monthly cost.</Paragraph>
     <Paragraph>We're <i>light years</i> more affordable than hiring a full-time web developer.</Paragraph>
     <Paragraph>To put it in context:</Paragraph>
-    <Paragraph>If you hire one full-time developer <i>at minimum wage</i>, you're still paying more than $1200 per month in wages, taxes and benefits.  That sucks.</Paragraph>
-    <Paragraph>Have you ever tried to actually hire a skilled developer at minimum wage?  <i>Not possible</i>.</Paragraph>
+    <Paragraph>Hire one full-time developer <i>at minimum wage</i>, and you're still paying more than $1200 per month in wages, taxes and benefits.</Paragraph>
+    <Paragraph>But wait a minute.  Have you ever tried to find a skilled developer willing to work for minimum wage?  <i>Not possible</i>.</Paragraph>
     <Paragraph>With us, it's <i>simple</i>.  You pay one flat rate of $999 per month.</Paragraph>
     <Paragraph>Our highly skilled team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained -- all while you save time and money.</Paragraph>
     <Paragraph><b>It's a win-win.</b></Paragraph>
