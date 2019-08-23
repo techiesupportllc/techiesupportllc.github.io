@@ -86,5 +86,11 @@ module.exports = {
         color: `#f6993f`,
       },
     },
+    {
+      resolve: `gatsby-plugin-snipcart`,
+      options: {
+        apiKey: `NDlhNjk5MjktYmQ3ZC00MjRiLTgxOWUtZGQ5ZTczYmRmNDRhNjM3MDIxNzMxMzgzNjYzMDIy`,
+      },
+    },
   ],
 }

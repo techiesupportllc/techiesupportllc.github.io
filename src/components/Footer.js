@@ -3,8 +3,8 @@ import styled from "styled-components"
 
 const StyledFooter = styled.footer`
   text-align: center;
-  background: #8795A1;
-  color: #F8FAFC;
+  background: #F1F5F8;
+  color: #606F7B;
   padding: 1.5rem 0 1.5rem 0;
   font-weight: bold;
   width: 100%;
