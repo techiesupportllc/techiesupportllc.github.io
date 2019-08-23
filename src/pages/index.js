@@ -7,7 +7,7 @@ const FirstWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0 0 6rem 0;
+  padding: 0 0 4rem 0;
 `;
 
 const FirstSection = styled.div`
@@ -53,13 +53,13 @@ const SecondWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background: #f6993f;
-  padding: 4rem 0 6rem 0;
+  background: #3d4852;
+  padding: 4rem 0 4rem 0;
 `;
 
 const SecondSection = styled.div`
   max-width: 800px;
-  color: #3d4852;
+  color: #F8FAFC;
   width: 100%;
   padding: 0 1rem 0 1rem;
 `;
@@ -89,7 +89,7 @@ const SecondHeading = styled.h3`
 const SecondParagraph = styled.p`
   font-size: 1.25rem;
   padding: 1.5rem 0 0 0;
-  color: #462A16;
+  color: #FFF5EB;
   flex: 1;
 `;
 
@@ -122,39 +122,46 @@ const CTAButtonSecondary = styled.button`
   border-radius: 5px;
 `;
 
-const ThirdWrapper = styled.div`
+const GetStartedForm = styled.form`
+
+`;
+
+const GetStartedDiv = styled.div`
+ display: flex;
+ padding: 1rem 0 1rem 0;
+`;
+
+const GetStartedAltDiv = styled.div`
   display: flex;
-  flex-direction: row;
+  padding: 1rem 0 1rem 0;
   justify-content: center;
-  background: #3d4852;
-  padding: 4rem 0 6rem 0;
 `;
 
-const ThirdSection = styled.div`
-  max-width: 800px;
-  color: #F8FAFC;
-  width: 100%;
-  padding: 0 1rem 0 1rem;
+const GetStartedParagraphDiv = styled.div`
+  display: flex;
+  justify-content: center;
 `;
 
-const ThirdParagraph = styled.p`
-  font-size: 1.25rem;
-  color: #DAE1E7;
-  padding: 1rem 0 0 0;
-`;
-
-const CTAButtonTertiary = styled.button`
+const GetStartedInput = styled.input`
   border: none;
-  border-bottom: 4px solid #DAE1E7;
-  font-size: 1.25rem;
-  font-weight: bold;
-  background-color: inherit;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem 0 1rem 1rem;
+  flex-basis: 60%;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+`;
+
+const GetStartedButton = styled.button`
+  color: #3d4852;
   text-transform: uppercase;
   text-decoration: none;
-  color: #DAE1E7;
+  background: #f6993f;
+  padding: 1rem;
+  border: none;
   display: inline-block;
+  font-weight: bold;
   cursor: pointer;
-  margin: 1rem 0 0 0;
+  border-radius: 0 5px 5px 0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 `;
 
 export default () => (
@@ -192,21 +199,23 @@ export default () => (
           <Paragraph>
             <b>It's a win-win.</b>
           </Paragraph>
-          <CTAButtonPrimary
-            className="snipcart-add-item"
-            data-item-name="Web Development Subscription"
-            data-item-description="We'll build, host and maintain your JAMstack website or web app for one low monthly cost."
-            data-item-id="web-development-subscription"
-            data-item-url="/"
-            data-item-price="999.00"
-            data-item-payment-interval="Month"
-            data-item-payment-interval-count="1"
-            data-item-taxable="false"
-            data-item-cancellation-action="CancelAtCurrentCycleEnd"
-            data-item-pausing-action="KeepActiveUntilEndOfBillingCycle"
-          >
-            Sign Up
-          </CTAButtonPrimary>
+          <GetStartedForm>
+            <GetStartedDiv>
+              <GetStartedInput
+                type="email"
+                placeholder="i-need-a-website@business.com"
+                autocomplete="email"
+              />
+              <GetStartedButton
+                type="submit"
+              >
+                Get In Touch
+              </GetStartedButton>
+            </GetStartedDiv>
+            <p>
+              <i>We won't spam you or sell your information to third parties.</i>
+            </p>
+          </GetStartedForm>
         </FirstSection>
     </FirstWrapper>
     <SecondWrapper>
@@ -236,7 +245,7 @@ export default () => (
               Where is your headquarters?
             </SecondHeading>
             <SecondParagraph>
-              Phoenix
+              ☀️ Phoenix
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -260,43 +269,30 @@ export default () => (
               How can I get started?
             </SecondHeading>
             <SecondParagraph>
-              Click the button.
+              Enter your email address and click the orange button. 🙂
             </SecondParagraph>
           </SecondOuter>
-          <ButtonOuter>
-            <CTAButtonSecondary
-              className="snipcart-add-item"
-              data-item-name="Web Development Subscription"
-              data-item-description="We'll build, host and maintain your JAMstack website or web app for one low monthly cost."
-              data-item-id="web-development-subscription"
-              data-item-url="/"
-              data-item-price="999.00"
-              data-item-payment-interval="Month"
-              data-item-payment-interval-count="1"
-              data-item-taxable="false"
-              data-item-cancellation-action="CancelAtCurrentCycleEnd"
-              data-item-pausing-action="KeepActiveUntilEndOfBillingCycle"
-            >
-              Sign Up
-            </CTAButtonSecondary>
-          </ButtonOuter>
+          <GetStartedForm>
+            <GetStartedAltDiv>
+              <GetStartedInput
+                type="email"
+                placeholder="i-need-a-website@business.com"
+                autocomplete="email"
+              />
+              <GetStartedButton
+                type="submit"
+              >
+                Get In Touch
+              </GetStartedButton>
+            </GetStartedAltDiv>
+            <GetStartedParagraphDiv>
+              <p>
+                <i>We won't spam you or sell your information to third parties.</i>
+              </p>
+            </GetStartedParagraphDiv>
+          </GetStartedForm>
         </SecondSubWrapper>
       </SecondSection>
     </SecondWrapper>
-    <ThirdWrapper>
-      <ThirdSection>
-        <SecondaryHeading>
-          Still not convinced?
-        </SecondaryHeading>
-        <ThirdParagraph>
-          That's okay! 🙂<br /><br />Choosing a web development agency is an important decision for your business.  While we try to answer as many questions as we can on this page, we understand that there may be some we've missed.  If so, please get in touch with us.
-        </ThirdParagraph>
-        <a href="mailto:help@techiesupport.co?subject=I have a question&body=Thanks for reaching out!  What question can we answer for you?">
-          <CTAButtonTertiary>
-            Contact Us
-          </CTAButtonTertiary>
-        </a>
-      </ThirdSection>
-    </ThirdWrapper>
   </Layout>
 )

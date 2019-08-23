@@ -47,25 +47,8 @@ const NavButtons = props => (
         Blog
       </SecondaryNavButton>
     </Link>
-    <SecondaryNavButton
-      className="snipcart-checkout"
-    >
-      Cart
-    </SecondaryNavButton>
-    <PrimaryNavButton
-      className="snipcart-add-item"
-      data-item-name="Web Development Subscription"
-      data-item-description="We'll build, host and maintain your JAMstack website or web app for one low monthly cost."
-      data-item-id="web-development-subscription"
-      data-item-url="/"
-      data-item-price="999.00"
-      data-item-payment-interval="Month"
-      data-item-payment-interval-count="1"
-      data-item-taxable="false"
-      data-item-cancellation-action="CancelAtCurrentCycleEnd"
-      data-item-pausing-action="KeepActiveUntilEndOfBillingCycle"
-    >
-      Sign Up
+    <PrimaryNavButton>
+      Get In Touch
     </PrimaryNavButton>
   </NavButtonDiv>
 )
