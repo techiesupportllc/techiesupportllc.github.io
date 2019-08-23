@@ -8,15 +8,16 @@ import styled from "styled-components"
 const Page = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /*align-items: center;*/
+  background: #F8FAFC;
 `;
 
 const Body = styled.div`
-  display: flex;
-  flex-direction: column;
-  max-width: 800px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*max-width: 800px;*/
   min-height: 100vh;
-  padding: 0 1rem 0 1rem;
+  /*padding: 0 1rem 0 1rem;*/
 `;
 
 export default ({ children }) => {
