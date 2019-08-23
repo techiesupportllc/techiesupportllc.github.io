@@ -195,13 +195,17 @@ export default () => (
           <CTAButtonPrimary
             className="snipcart-add-item"
             data-item-name="Web Development Subscription"
+            data-item-description="We'll build, host and maintain your JAMstack website or web app for one low monthly cost."
             data-item-id="web-development-subscription"
             data-item-url="/"
             data-item-price="999.00"
             data-item-payment-interval="Month"
             data-item-payment-interval-count="1"
+            data-item-taxable="false"
+            data-item-cancellation-action="CancelAtCurrentCycleEnd"
+            data-item-pausing-action="KeepActiveUntilEndOfBillingCycle"
           >
-            Get Started
+            Sign Up
           </CTAButtonPrimary>
         </FirstSection>
     </FirstWrapper>
@@ -260,8 +264,20 @@ export default () => (
             </SecondParagraph>
           </SecondOuter>
           <ButtonOuter>
-            <CTAButtonSecondary>
-              Get Started
+            <CTAButtonSecondary
+              className="snipcart-add-item"
+              data-item-name="Web Development Subscription"
+              data-item-description="We'll build, host and maintain your JAMstack website or web app for one low monthly cost."
+              data-item-id="web-development-subscription"
+              data-item-url="/"
+              data-item-price="999.00"
+              data-item-payment-interval="Month"
+              data-item-payment-interval-count="1"
+              data-item-taxable="false"
+              data-item-cancellation-action="CancelAtCurrentCycleEnd"
+              data-item-pausing-action="KeepActiveUntilEndOfBillingCycle"
+            >
+              Sign Up
             </CTAButtonSecondary>
           </ButtonOuter>
         </SecondSubWrapper>
