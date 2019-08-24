@@ -128,12 +128,12 @@ const GetStartedForm = styled.form`
 
 const GetStartedDiv = styled.div`
  display: flex;
- padding: 1rem 0 1rem 0;
+ padding: 1rem 0 2rem 0;
 `;
 
 const GetStartedAltDiv = styled.div`
   display: flex;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 2rem 0;
   justify-content: center;
 `;
 
@@ -194,17 +194,28 @@ export default () => (
             With us, it's <i>simple</i>.  You pay one flat rate of $999 per month.
           </Paragraph>
           <Paragraph>
-            Our highly skilled team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained&mdash;all while you save time and money.
+            Our highly skilled team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained&mdash;all while you save time and money.  It's a win-win.
           </Paragraph>
-          <Paragraph>
-            <b>It's a win-win.</b>
+          <Paragraph
+            id="get-in-touch"
+          >
+            <b>If you're ready to get started, drop us your email and we'll get in touch to discuss your project.</b>
           </Paragraph>
-          <GetStartedForm>
+          <GetStartedForm
+            action="https://formspree.io/help@techiesupport.co"
+            method="post"
+          >
             <GetStartedDiv>
               <GetStartedInput
                 type="email"
+                name="email"
                 placeholder="i-need-a-website@business.com"
                 autocomplete="email"
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="Techie Support contact request"
               />
               <GetStartedButton
                 type="submit"
@@ -272,12 +283,21 @@ export default () => (
               Enter your email address and click the orange button. 🙂
             </SecondParagraph>
           </SecondOuter>
-          <GetStartedForm>
+          <GetStartedForm
+            action="https://formspree.io/help@techiesupport.co"
+            method="post"
+          >
             <GetStartedAltDiv>
               <GetStartedInput
                 type="email"
+                name="email"
                 placeholder="i-need-a-website@business.com"
                 autocomplete="email"
+              />
+              <input
+                type="hidden"
+                name="_subject"
+                value="Techie Support contact request"
               />
               <GetStartedButton
                 type="submit"

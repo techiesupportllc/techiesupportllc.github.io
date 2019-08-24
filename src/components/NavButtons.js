@@ -47,9 +47,11 @@ const NavButtons = props => (
         Blog
       </SecondaryNavButton>
     </Link>
-    <PrimaryNavButton>
-      Get In Touch
-    </PrimaryNavButton>
+    <Link to="/#get-in-touch">
+      <PrimaryNavButton>
+        Get In Touch
+      </PrimaryNavButton>
+    </Link>
   </NavButtonDiv>
 )
 
