@@ -30,7 +30,11 @@ const StyledButton = styled.button`
 `;
 
 const ContactForm = props => (
-  <form id={props.id}>
+  <form
+    id={props.id}
+    action="https://formspree.io/help@techiesupport.co"
+    method="post"
+  >
     <Paragraph>
       <b>Drop us your email, and we'll get in touch to discuss your project.</b>
     </Paragraph>
