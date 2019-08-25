@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Techie Support]]></title><description><![CDATA[Radically different web development]]></description><link>https://techiesupport.co</link><generator>RSS for Node</generator><lastBuildDate>Sat, 24 Aug 2019 02:30:43 GMT</lastBuildDate><item><title><![CDATA[Three Programming Misconceptions]]></title><description><![CDATA[What do you think of when you hear the word "programming"? We've observed three major misconceptions that most people seem to have about…]]></description><link>https://techiesupport.co/blog/three-programming-misconceptions/</link><guid isPermaLink="false">https://techiesupport.co/blog/three-programming-misconceptions/</guid><pubDate>Tue, 23 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;What do you think of when you hear the word &quot;programming&quot;?&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Techie Support]]></title><description><![CDATA[Radically different web development]]></description><link>https://techiesupport.co</link><generator>RSS for Node</generator><lastBuildDate>Sun, 25 Aug 2019 01:07:09 GMT</lastBuildDate><item><title><![CDATA[Three Programming Misconceptions]]></title><description><![CDATA[What do you think of when you hear the word "programming"? We've observed three major misconceptions that most people seem to have about…]]></description><link>https://techiesupport.co/blog/three-programming-misconceptions/</link><guid isPermaLink="false">https://techiesupport.co/blog/three-programming-misconceptions/</guid><pubDate>Tue, 23 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;What do you think of when you hear the word &quot;programming&quot;?&lt;/p&gt;
 &lt;p&gt;We&apos;ve observed three major misconceptions that most people seem to have about programming:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;You need to be awesome at math.&lt;/li&gt;
@@ -6,11 +6,11 @@
 &lt;li&gt;You need to be a university graduate with a bachelor&apos;s degree in computer science.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Wrong!&lt;/strong&gt;&lt;/p&gt;
-&lt;h2&gt;Truth&lt;/h2&gt;
+&lt;h3&gt;Truth&lt;/h3&gt;
 &lt;p&gt;What it boils down to is that programming is all about being stubborn.  We&apos;ve met our fair share of stubborn people, and you probably have too.  You might even be one of them!&lt;/p&gt;
 &lt;p&gt;But why is stubbornnes important for programming?  Because it isn&apos;t something you learn overnight.  As a matter of fact, you won&apos;t even master it after spending several years attending university classes.  Instead, it&apos;s an ongoing craft that&apos;s honed and perfected on a daily basis.  All along the way you&apos;re going to run into inevitable problems that you&apos;ll need to doggedly push through.&lt;/p&gt;
 &lt;p&gt;The weak will give up, but &lt;em&gt;the stubborn will keep going&lt;/em&gt;.&lt;/p&gt;
-&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
 &lt;p&gt;Thankfully, we all have enough stubbornness in us to learn programming.  If you&apos;re fired up and ready to start learning, check out these three amazing resources for help:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.freecodecamp.org/&quot;&gt;&lt;strong&gt;freeCodeCamp&lt;/strong&gt;&lt;/a&gt;.  This site will allow you to learn common languages like &lt;strong&gt;HTML&lt;/strong&gt; and &lt;strong&gt;CSS&lt;/strong&gt; and give you some challenging projects to work on.  You can even earn certifications to boost your resume or brag to your friends.  Best of all, it&apos;s all &lt;em&gt;100% free&lt;/em&gt;!&lt;/li&gt;
@@ -19,7 +19,7 @@
 &lt;/ol&gt;
 &lt;p&gt;With the right resources and enough stubbornness (maybe &lt;em&gt;persistence&lt;/em&gt; is a better word choice), anyone can learn programming.  If you&apos;ve been thinking about taking the plunge, there&apos;s no better time than the present.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Should You Just Use WordPress?]]></title><description><![CDATA[If you’re a business owner, picking the right platform for your website is confusing.  It seems like there are about 100,000 different…]]></description><link>https://techiesupport.co/blog/should-you-just-use-wordpress/</link><guid isPermaLink="false">https://techiesupport.co/blog/should-you-just-use-wordpress/</guid><pubDate>Mon, 22 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;If you’re a business owner, picking the right platform for your website is confusing.  It seems like there are about 100,000 different options out there.  Every one of them says they&apos;re the best, the cheapest, the fastest, you name it.  Maybe you ask a tech-savvy friend for some advice.  What do they tell you?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&quot;Just use WordPress.&quot;&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;The Situation&lt;/h2&gt;
+&lt;h3&gt;The Situation&lt;/h3&gt;
 &lt;p&gt;It&apos;s true; a massive percentage of business websites use WordPress.  We can make some educated guesses as to why this is:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;WordPress has great brand recognition.&lt;/li&gt;
@@ -34,7 +34,7 @@
 &lt;li&gt;A large majority of businesses opt not to pay their web developer to maintain their WordPress site, and they rarely take the time to do so themselves.&lt;/li&gt;
 &lt;li&gt;Most business websites go months or years between updates, and they&apos;re essentially online &quot;brochures&quot; advertising the business&apos; services.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;The Better Way&lt;/h2&gt;
+&lt;h3&gt;The Better Way&lt;/h3&gt;
 &lt;p&gt;We won&apos;t touch WordPress with a 10-foot pole, as the old saying goes.  Why?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Because there&apos;s a better way.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We build our sites using cutting-edge technologies and modern workflows -- the &lt;em&gt;JAMstack&lt;/em&gt;.  This translates to a smoother, faster and more efficient development process which in turn correlates to better performance, lower cost and greater scalability for your website.&lt;/p&gt;
@@ -42,5 +42,5 @@
 &lt;p&gt;So please, &lt;em&gt;don&apos;t&lt;/em&gt; just use WordPress.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Beginnings]]></title><description><![CDATA[After a long hiatus, Techie Support is back!  We were founded back in 2013 to provide (perhaps a little too) affordable IT support services…]]></description><link>https://techiesupport.co/blog/new-beginnings/</link><guid isPermaLink="false">https://techiesupport.co/blog/new-beginnings/</guid><pubDate>Wed, 17 Jul 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;After a long hiatus, Techie Support is back!  We were founded back in 2013 to provide (perhaps a little too) affordable IT support services for small businesses.  That led to modest success in the local Phoenix market, but here&apos;s the reality:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;When you stand in the middle of the road, you get ran over.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;We were too focused on trying to do everything under the sun instead of focusing on specializing and getting really, really, ridiculously good at one specific area of IT.  And when you have a small team, you can&apos;t realistically compete with the big boys who have the resources and manpower to devote to doing a lot of things pretty well.&lt;/p&gt;
-&lt;h2&gt;The Bright Future&lt;/h2&gt;
+&lt;h3&gt;The Bright Future&lt;/h3&gt;
 &lt;p&gt;So we took a break, regrouped and refocused on web development.  But folks, we don&apos;t do just &lt;em&gt;any&lt;/em&gt; web development here.  We do &lt;strong&gt;radically different&lt;/strong&gt; web development.  It&apos;s going to be a fun run.&lt;/p&gt;</content:encoded></item></channel></rss>
