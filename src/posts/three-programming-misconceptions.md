@@ -1,5 +1,6 @@
 ---
 title: "Three Programming Misconceptions"
+tagline: "Let's clear the air."
 date: "2019-07-23"
 featuredImage: "../images/three-programming-misconceptions.jpg"
 ---
@@ -14,7 +15,7 @@ We've observed three major misconceptions that most people seem to have about pr
 
 **Wrong!**
 
-## Truth
+### Truth
 
 What it boils down to is that programming is all about being stubborn.  We've met our fair share of stubborn people, and you probably have too.  You might even be one of them!
 
@@ -22,7 +23,7 @@ But why is stubbornnes important for programming?  Because it isn't something yo
 
 The weak will give up, but *the stubborn will keep going*.
 
-## Resources
+### Resources
 
 Thankfully, we all have enough stubbornness in us to learn programming.  If you're fired up and ready to start learning, check out these three amazing resources for help:
 

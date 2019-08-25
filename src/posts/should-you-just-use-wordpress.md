@@ -1,5 +1,6 @@
 ---
 title: "Should You Just Use WordPress?"
+tagline: "The short answer:  No."
 date: "2019-07-22"
 featuredImage: "../images/should-you-just-use-wordpress.jpg"
 ---
@@ -8,7 +9,7 @@ If you’re a business owner, picking the right platform for your website is con
 
 *"Just use WordPress."*
 
-## The Situation
+### The Situation
 
 It's true; a massive percentage of business websites use WordPress.  We can make some educated guesses as to why this is:
 
@@ -26,7 +27,7 @@ Here's what we've observed:
 2.  A large majority of businesses opt not to pay their web developer to maintain their WordPress site, and they rarely take the time to do so themselves.
 3.  Most business websites go months or years between updates, and they're essentially online "brochures" advertising the business' services.
 
-## The Better Way
+### The Better Way
 
 We won't touch WordPress with a 10-foot pole, as the old saying goes.  Why?
 

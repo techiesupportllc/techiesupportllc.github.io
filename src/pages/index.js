@@ -1,48 +1,22 @@
 import React from "react"
-import Layout from "../components/layout"
-import Hero from "../components/Hero"
 import styled from "styled-components"
+import Layout from "../components/Layout"
+import Hero from "../components/Hero"
+import PageTitle from "../components/PageTitle"
+import TagLine from "../components/TagLine"
+import Paragraph from "../components/Paragraph"
+import ContactForm from "../components/ContactForm"
 
 const FirstWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0 0 4rem 0;
+  padding: 0 0 2rem 0;
 `;
 
 const FirstSection = styled.div`
   max-width: 800px;
   padding: 0 1rem 0 1rem;
-`;
-
-const MainHeading = styled.h1`
-  font-size: 3rem;
-`;
-
-const SubHeading = styled.h3`
-  font-size: 2rem;
-  font-weight: lighter;
-  padding: 1rem 0 1rem 0;
-`;
-
-const Paragraph = styled.p`
-  font-size: 1.25rem;
-`;
-
-const CTAButtonPrimary = styled.button`
-  color: #3d4852;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #f6993f;
-  padding: 5px 15px 5px 15px;
-  border: none;
-  display: inline-block;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  font-weight: bold;
-  font-size: 2rem;
-  cursor: pointer;
-  margin: 1rem 0 0 0;
-  border-radius: 5px;
 `;
 
 const SecondaryHeading = styled.h3`
@@ -54,7 +28,7 @@ const SecondWrapper = styled.div`
   flex-direction: row;
   justify-content: center;
   background: #3d4852;
-  padding: 4rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 `;
 
 const SecondSection = styled.div`
@@ -67,6 +41,7 @@ const SecondSection = styled.div`
 const SecondSubWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 1rem 0 2rem 0;
 `;
 
 const SecondOuter = styled.div`
@@ -74,11 +49,10 @@ const SecondOuter = styled.div`
   flex-direction: row;
   justify-content: space-between;
   border-top: 2px solid #606F7B;
-  margin: 1rem 0 0 0;
   width: 100%;
   @media screen and (max-width: 600px) {
     flex-direction: column;
-    align-items: center;
+    align-content: center;
   }
 `;
 
@@ -91,90 +65,22 @@ const SecondParagraph = styled.p`
   padding: 1.5rem 0 0 0;
   color: #FFF5EB;
   flex: 1;
-`;
-
-const ButtonOuter = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 100%;
-  padding: 1rem 8rem 0 0;
   @media screen and (max-width: 600px) {
-    flex-direction: column;
-    align-items: center;
     padding: 0;
   }
-`;
-
-const CTAButtonSecondary = styled.button`
-  color: #3d4852;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #dae1e7;
-  padding: 5px 15px 5px 15px;
-  border: none;
-  display: inline-block;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  font-weight: bold;
-  font-size: 2rem;
-  cursor: pointer;
-  margin: 1rem 0 0 0;
-  border-radius: 5px;
-`;
-
-const GetStartedForm = styled.form`
-
-`;
-
-const GetStartedDiv = styled.div`
- display: flex;
- padding: 1rem 0 2rem 0;
-`;
-
-const GetStartedAltDiv = styled.div`
-  display: flex;
-  padding: 1rem 0 2rem 0;
-  justify-content: center;
-`;
-
-const GetStartedParagraphDiv = styled.div`
-  display: flex;
-  justify-content: center;
-`;
-
-const GetStartedInput = styled.input`
-  border: none;
-  border-radius: 5px 0 0 5px;
-  padding: 1rem 0 1rem 1rem;
-  flex-basis: 60%;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-`;
-
-const GetStartedButton = styled.button`
-  color: #3d4852;
-  text-transform: uppercase;
-  text-decoration: none;
-  background: #f6993f;
-  padding: 1rem;
-  border: none;
-  display: inline-block;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 0 5px 5px 0;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 `;
 
 export default () => (
   <Layout>
       <FirstWrapper>
         <FirstSection>
-          <MainHeading>
+          <PageTitle>
             Radically different web development
-          </MainHeading>
+          </PageTitle>
           <Hero />
-          <SubHeading>
-            Ever seen snow on a cactus?<br/>It's unquestionably unforgettable&mdash;just like us.
-          </SubHeading>
+          <TagLine>
+            Snow on a cactus?  Different&mdash;just like us.
+          </TagLine>
           <Paragraph>
             <b>We'll build, host and maintain</b> your JAMstack website or web app for one low monthly cost.
           </Paragraph>
@@ -194,39 +100,11 @@ export default () => (
             With us, it's <i>simple</i>.  You pay one flat rate of $999 per month.
           </Paragraph>
           <Paragraph>
-            Our highly skilled team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained&mdash;all while you save time and money.  It's a win-win.
+            Our talented team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained&mdash;while you <i>save time and money</i>.  It's a win-win.
           </Paragraph>
-          <Paragraph
+          <ContactForm
             id="get-in-touch"
-          >
-            <b>If you're ready to get started, drop us your email and we'll get in touch to discuss your project.</b>
-          </Paragraph>
-          <GetStartedForm
-            action="https://formspree.io/help@techiesupport.co"
-            method="post"
-          >
-            <GetStartedDiv>
-              <GetStartedInput
-                type="email"
-                name="email"
-                placeholder="i-need-a-website@business.com"
-                autocomplete="email"
-              />
-              <input
-                type="hidden"
-                name="_subject"
-                value="Techie Support contact request"
-              />
-              <GetStartedButton
-                type="submit"
-              >
-                Get In Touch
-              </GetStartedButton>
-            </GetStartedDiv>
-            <p>
-              <i>We won't spam you or sell your information to third parties.</i>
-            </p>
-          </GetStartedForm>
+          />
         </FirstSection>
     </FirstWrapper>
     <SecondWrapper>
@@ -240,7 +118,7 @@ export default () => (
               Who are you?
             </SecondHeading>
             <SecondParagraph>
-              Web developers who aren't happy with the agency options available to business owners.
+              Web developers who want to bring the benefits of JAMstack to your business.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -248,7 +126,7 @@ export default () => (
               What is JAMstack?
             </SecondHeading>
             <SecondParagraph>
-              A modern way of building websites and web apps that makes them faster and more secure than traditional methods.  It unlocks a world of possibilities including web apps that can be installed on mobile devices and work offline.
+              A better way of building your website or web app to make it faster and more secure than traditional methods.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -264,7 +142,7 @@ export default () => (
               When will my project be finished?
             </SecondHeading>
             <SecondParagraph>
-              The exact time frame varies depending upon complexity.  Most are completed within three to six months.
+              It varies between projects depending upon their complexity.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -272,46 +150,19 @@ export default () => (
               Why work with you?
             </SecondHeading>
             <SecondParagraph>
-              Many web development agencies take the same old approach with every website they build:  Slap a WordPress install on a slow shared server and use a bloated page builder plugin to design the site.  And they often charge a small fortune to do so.  To top it off, sites are often left unmaintained and insecure.  You pay good money and end up with a subpar end result.<br /><br />We think you deserve better than that.
+              The norm is to slap WordPress on a slow shared server and use a bloated page builder plugin to design your site&mdash;leaving it insecure, unmaintained and sluggish.  You end up paying good money for a subpar result.<br /><br />We think you deserve better than that.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
             <SecondHeading>
-              How can I get started?
+              How are you so affordable?
             </SecondHeading>
             <SecondParagraph>
-              Enter your email address and click the orange button. 🙂
+              By leveraging the power of JAMstack while building, hosting and maintaining your site in one comprehensive package, we're able to keep our overhead low.
             </SecondParagraph>
           </SecondOuter>
-          <GetStartedForm
-            action="https://formspree.io/help@techiesupport.co"
-            method="post"
-          >
-            <GetStartedAltDiv>
-              <GetStartedInput
-                type="email"
-                name="email"
-                placeholder="i-need-a-website@business.com"
-                autocomplete="email"
-              />
-              <input
-                type="hidden"
-                name="_subject"
-                value="Techie Support contact request"
-              />
-              <GetStartedButton
-                type="submit"
-              >
-                Get In Touch
-              </GetStartedButton>
-            </GetStartedAltDiv>
-            <GetStartedParagraphDiv>
-              <p>
-                <i>We won't spam you or sell your information to third parties.</i>
-              </p>
-            </GetStartedParagraphDiv>
-          </GetStartedForm>
         </SecondSubWrapper>
+        <ContactForm />
       </SecondSection>
     </SecondWrapper>
   </Layout>
