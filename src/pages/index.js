@@ -5,7 +5,7 @@ import Hero from "../components/Hero"
 import PageTitle from "../components/PageTitle"
 import TagLine from "../components/TagLine"
 import Paragraph from "../components/Paragraph"
-import ContactForm from "../components/ContactForm"
+import NewContactForm from "../components/NewContactForm"
 
 const FirstWrapper = styled.div`
   display: flex;
@@ -99,12 +99,12 @@ export default () => (
           <Paragraph>
             With us, it's <i>simple</i>.  You pay one flat rate of $999 per month.
           </Paragraph>
-          <Paragraph>
+          <Paragraph
+            id="get-in-touch"
+          >
             Our talented team builds your project with the latest web technology, deploys it to the fastest web hosting and keeps it well maintained&mdash;while you <i>save time and money</i>.  It's a win-win.
           </Paragraph>
-          <ContactForm
-            id="get-in-touch"
-          />
+          <NewContactForm />
         </FirstSection>
     </FirstWrapper>
     <SecondWrapper>
@@ -162,7 +162,7 @@ export default () => (
             </SecondParagraph>
           </SecondOuter>
         </SecondSubWrapper>
-        <ContactForm />
+        <NewContactForm />
       </SecondSection>
     </SecondWrapper>
   </Layout>

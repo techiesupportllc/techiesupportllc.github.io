@@ -6,7 +6,7 @@ const StyledParagraph = styled.p`
 `;
 
 const Paragraph = props => (
-  <StyledParagraph>
+  <StyledParagraph id={props.id}>
     {props.children}
   </StyledParagraph>
 )
