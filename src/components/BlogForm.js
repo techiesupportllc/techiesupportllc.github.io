@@ -40,19 +40,19 @@ const config = {
   }
 }
 
-const NewContactForm = () => (
+const BlogForm = () => (
   <Formik
     initialValues={{ email: "" }}
     onSubmit={(values, { setSubmitting, resetForm }) => {
       setTimeout(() => {
-        axios.post("https://api.mailblast.io/v1/lists/4156af75-cfc0-44e8-8f2e-e0c19088a52a/subscribers", {
+        axios.post("https://api.mailblast.io/v1/lists/9f9cd3be-69a6-45c7-b996-a4d6fb26561f/subscribers", {
           data: {
             attributes: {
               email: values["email"],
             }
           }
         }, config);
-        alert("Thanks for dropping us your email!  We'll get in touch soon to discuss your business.");
+        alert("Thanks for dropping us your email!  We'll send you the best bits from our blog each week.");
         setSubmitting(false);
         resetForm();
       }, 500);
@@ -80,7 +80,7 @@ const NewContactForm = () => (
           onSubmit={handleSubmit}
         >
           <Paragraph>
-            <b>Drop us your email, and we'll get in touch to discuss your business.</b>
+            <b>Drop us your email, and we'll send you the best bits from our blog each week.</b>
           </Paragraph>
           <StyledDiv>
             <StyledInput
@@ -99,7 +99,7 @@ const NewContactForm = () => (
               type="submit"
               disabled={isSubmitting}
             >
-              Get In Touch
+              Get The Goods
             </StyledButton>
           </StyledDiv>
         </form>
@@ -108,4 +108,4 @@ const NewContactForm = () => (
   </Formik>
 )
 
-export default NewContactForm
+export default BlogForm

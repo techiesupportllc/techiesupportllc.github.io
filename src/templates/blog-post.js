@@ -5,12 +5,12 @@ import Layout from "../components/Layout"
 import FeaturedImage from "../components/FeaturedImage"
 import PageTitle from "../components/PageTitle"
 import TagLine from "../components/TagLine"
+import BlogForm from "../components/BlogForm"
 
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 0 2rem 0;
 `;
 
 const Section = styled.div`
@@ -32,6 +32,21 @@ const DateReading = styled.p`
   font-size: 0.75rem;
 `;
 
+const Inner = styled.div`
+  color: #F8FAFC;
+  background: #3d4852;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0 2rem 0;
+`;
+
+const End = styled.div`
+  max-width: 800px;
+  padding: 0 1rem 0 1rem;
+`;
+
 export default ({ data }) => {
   const post = data.markdownRemark
   const featuredImgFluid = post.frontmatter.featuredImage.childImageSharp.fluid
@@ -50,6 +65,7 @@ export default ({ data }) => {
             {post.frontmatter.tagline}
           </TagLine>
           <PostContainer dangerouslySetInnerHTML={{ __html: post.html }} />
+          <BlogForm />
         </Section>
       </Wrapper>
     </Layout>
