@@ -23,7 +23,7 @@ const HeaderDiv = styled.div`
 const Header = props => (
   <HeaderDiv>
     <Link to="/">
-      <img src={Logo} height="40" />
+      <img src={Logo} height="40" alt="Techie Support logo" />
     </Link>
     <NavButtons />
   </HeaderDiv>

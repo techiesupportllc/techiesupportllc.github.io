@@ -52,7 +52,7 @@ const NewContactForm = () => (
             }
           }
         }, config);
-        alert("Thanks for dropping us your email!  We'll get in touch soon to discuss your business.");
+        alert("Thanks for dropping us your email!  We'll be in touch soon to discuss your needs.");
         setSubmitting(false);
         resetForm();
       }, 500);
@@ -80,13 +80,14 @@ const NewContactForm = () => (
           onSubmit={handleSubmit}
         >
           <Paragraph>
-            <b>Drop us your email, and we'll get in touch to discuss your business.</b>
+            <b>Drop us your email, and we'll get in touch to discuss your needs.</b>
           </Paragraph>
           <StyledDiv>
             <StyledInput
               type="email"
               name="email"
               autocomplete="email"
+              ariaLabel="email"
               placeholder="your-email@your-business.com"
               value={values.email}
               onChange={handleChange}
@@ -99,7 +100,7 @@ const NewContactForm = () => (
               type="submit"
               disabled={isSubmitting}
             >
-              Get In Touch
+              Get Started
             </StyledButton>
           </StyledDiv>
         </form>

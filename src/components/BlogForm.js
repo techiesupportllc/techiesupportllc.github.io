@@ -87,6 +87,7 @@ const BlogForm = () => (
               type="email"
               name="email"
               autocomplete="email"
+              ariaLabel="email"
               placeholder="your-email@your-business.com"
               value={values.email}
               onChange={handleChange}

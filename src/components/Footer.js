@@ -16,17 +16,17 @@ const StyledFooter = styled.footer`
 
 const Footer = () => (
   <StyledFooter>
-    <a href="https://facebook.com/techiesupport">
-      <FontAwesomeIcon icon={Brands.faFacebook} size="2x" style={{ margin: "0 1rem 0 0" }} />
+    <a ariaLabel="Facebook" href="https://facebook.com/techiesupport">
+      <FontAwesomeIcon icon={Brands.faFacebook} size="2x" style={{ margin: "0 1rem 0 0" }} title="Facebook" />
     </a>
-    <a href="https://instagram.com/techiesupport">
-      <FontAwesomeIcon icon={Brands.faInstagram} size="2x" style={{ margin: "0 0.5rem 0 0" }} />
+    <a ariaLabel="Instagram" href="https://instagram.com/techiesupport">
+      <FontAwesomeIcon icon={Brands.faInstagram} size="2x" style={{ margin: "0 0.5rem 0 0" }} title="Instagram" />
     </a>
-    <a href="https://linkedin.com/company/techiesupport">
-      <FontAwesomeIcon icon={Brands.faLinkedin} size="2x" style={{ margin: "0 0 0 0.5rem" }} />
+    <a ariaLabel="LinkedIn" href="https://linkedin.com/company/techiesupport">
+      <FontAwesomeIcon icon={Brands.faLinkedin} size="2x" style={{ margin: "0 0 0 0.5rem" }} title="LinkedIn" />
     </a>
-    <a href="https://twitter.com/techiesupportco">
-      <FontAwesomeIcon icon={Brands.faTwitter} size="2x" style={{ margin: "0 0 0 1rem" }} />
+    <a ariaLabel="Twitter" href="https://twitter.com/techiesupportco">
+      <FontAwesomeIcon icon={Brands.faTwitter} size="2x" style={{ margin: "0 0 0 1rem" }} title="Twitter" />
     </a>
     <br />© {new Date().getFullYear()} • Techie Support, LLC<br />Built with ❤️ in Phoenix
   </StyledFooter>

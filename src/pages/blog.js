@@ -13,7 +13,7 @@ const Wrapper = styled.div`
 `;
 
 const Section = styled.div`
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 1rem 0 1rem;
   width: 100%;
 `;

@@ -5,19 +5,14 @@ import SecondaryNavButton from "./SecondaryNavButton"
 
 const NavButtons = props => (
   <div>
-    <Link to="/">
-      <SecondaryNavButton>
-        Home
-      </SecondaryNavButton>
-    </Link>
     <Link to="/blog/">
       <SecondaryNavButton>
         Blog
       </SecondaryNavButton>
     </Link>
-    <Link to="/#get-in-touch">
+    <Link to="/">
       <PrimaryNavButton>
-        Get In Touch
+        Get Started
       </PrimaryNavButton>
     </Link>
   </div>

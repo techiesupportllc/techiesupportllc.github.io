@@ -16,7 +16,7 @@ const FirstWrapper = styled.div`
 `;
 
 const FirstSection = styled.div`
-  max-width: 800px;
+  max-width: 1000px;
   padding: 0 1rem 0 1rem;
 `;
 
@@ -33,7 +33,7 @@ const SecondWrapper = styled.div`
 `;
 
 const SecondSection = styled.div`
-  max-width: 800px;
+  max-width: 1000px;
   color: #F8FAFC;
   width: 100%;
   padding: 0 1rem 0 1rem;
@@ -78,70 +78,31 @@ export default () => (
           <PageTitle>
             Radically different web development
           </PageTitle>
-          <Hero />
           <TagLine>
-            Snow on a cactus?  That's different&mdash;just like us.
+            We'll build, host and maintain your website for $297 per month.
           </TagLine>
-          <Paragraph>
-            <b>Welcome to Techie Support.</b>  There's a reasonably good chance you won't regret visiting this website.
-          </Paragraph>
-          <Paragraph>
-            <i>What in the world is this anyway?</i>
-          </Paragraph>
-          <Paragraph>
-            A few years back, we were desperate for sales after our word of mouth work dried up.
-          </Paragraph>
-          <Paragraph>
-            We offered "IT support", but that's an incredibly vague term.  And we would try to do just about anything you could throw at us.
-          </Paragraph>
-          <Paragraph>
-            Servers?  We did 'em.  Desktops?  Did 'em.  Printers?  Yep.  Websites?  You bet.
-          </Paragraph>
-          <Paragraph>
-            Once we hit on websites, we realized to our surprise that there are a boatload of absolutely awful websites out there.  We're talking the slowest, ugliest things to disgrace the Earth since the AMC Gremlin (who're we kidding, we're not even old enough to remember that).
-          </Paragraph>
-          <Paragraph>
-            We saw the need, and we went for it full bore.  But it still wasn't enough.
-          </Paragraph>
-          <Paragraph>
-            Businesses weren't interested in what we were selling, and frankly why should they be?  There are about 367,538 (give or take 753) freelancers out there who will churn out websites for pennies on the dollar.
-          </Paragraph>
-          <Paragraph>
-            But we were "premium", whatever that means.
-          </Paragraph>
-          <Paragraph>
-            <i>Who cares?</i>
-          </Paragraph>
-          <Paragraph>
-            A website should serve exactly one purpose for your business&mdash;to improve your bottom line.  If it's not doing that, why spend money on a new one?
-          </Paragraph>
-          <Paragraph>
-            The truth is, it's not enough to just <i>have</i> a website.  And guess what, it's not enough for it to <i>look good</i> either.
-          </Paragraph>
-          <Paragraph>
-            It isn't even enough for it to load fast or be "SEO optimized" or any of that nonsense.
-          </Paragraph>
-          <Paragraph>
-            None of that stuff matters, because nobody's going to see it anyway.
-          </Paragraph>
-          <Paragraph>
-            At this point, you're probably shaking your head and wondering what kind of web development company would sit here and tell you <i>not</i> to invest in a new website.  To be fair though, we did warn you&mdash;we're radically different.
-          </Paragraph>
-          <Paragraph>
-            We don't just churn out websites.
-          </Paragraph>
-          <Paragraph>
-            We build, host and maintain your new JAMstack website, couple it with a solid content strategy (because ultimately, content is king), and combine the two into <b>a juggernaut of marketing power for your business</b>.
-          </Paragraph>
-          <Paragraph>
-            Ok, that <i>might</i> be overselling it a bit, but the key takeaway for you is this:
-          </Paragraph>
-          <Paragraph
-            id="get-in-touch"
-          >
-            We don't <i>just</i> build websites.  We build marketing engines that just so happen to include websites.
-          </Paragraph>
           <NewContactForm />
+          <Paragraph>
+            Let's face it, there are <i>a lot</i> of awful websites out there.  Maybe they fell out of the ugly tree and hit every branch on the way down.  Or maybe they're just slower than molasses.
+          </Paragraph>
+          <Paragraph>
+            We've noticed this and see an incredible opportunity to help businesses like yours.
+          </Paragraph>
+          <Paragraph>
+            <i>But what makes us different?</i>
+          </Paragraph>
+          <Paragraph>
+            We build every website with Gatsby, a JAMstack framework.
+          </Paragraph>
+          <Paragraph>
+            We don't expect you to care how the sausage is made.  The point is that JAMstack is the future of the web.  It's lean, fast and secure.
+          </Paragraph>
+          <Paragraph>
+            Don't just take our word for it.  Big names&mdash;including <i>Airbnb</i>, <i>Nike</i> and <i>PayPal</i>&mdash;use JAMstack to power their websites.
+          </Paragraph>
+          <Paragraph>
+            Our goal is to make this awesome technology available to your business at an affordable price.
+          </Paragraph>
         </FirstSection>
     </FirstWrapper>
     <SecondWrapper>
@@ -155,7 +116,7 @@ export default () => (
               Who are you?
             </SecondHeading>
             <SecondParagraph>
-              Web developers, scholars, poets&mdash;and all around friendly folks.
+              A dedicated team of web developers who want to bring the benefits of JAMstack to your business.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -163,7 +124,7 @@ export default () => (
               What is JAMstack?
             </SecondHeading>
             <SecondParagraph>
-              Simply put, it's the future of web development.  It's faster, it's more secure and it's got some awesome features like websites that work offline (seriously, try it; you can totally read our blog while you have no internet connection).
+              Simply put, it's the future of the web.  It's faster and more secure than traditional platforms like WordPress.  To top it off, it gives your website awesome features like the ability to work offline and be installed on mobile devices as if it's an app.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -187,7 +148,7 @@ export default () => (
               Why work with you?
             </SecondHeading>
             <SecondParagraph>
-              It's hard to answer a question like this without just sounding self-serving.  But ultimately, the truth is that we holistically combine your website and content with the goal of producing long-term gains for your business.  It's a simple concept but one that is surprisingly hard to pull off.
+              It's hard to answer a question like this without sounding self-serving.  The truth is that what we do&mdash;building websites&mdash;isn't unique at all.  However, the way we do it definitely is.  But we don't just do it this way for the sake of being different.  We do it this way because we believe it's truly better for you and your business.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -195,7 +156,7 @@ export default () => (
               How much do you cost?
             </SecondHeading>
             <SecondParagraph>
-              Expect to pay at least $7000 per month in most cases.  No possible way you can afford that?  Head on over to <Link to="/blog/">our blog</Link> for some awesome free tips.
+              Just $297 per month.  That includes quick turnaround, unlimited revisions, fast hosting and ongoing maintenance.  Best of all, there are no hidden fees, no upcharges and no headaches.
             </SecondParagraph>
           </SecondOuter>
         </SecondSubWrapper>
