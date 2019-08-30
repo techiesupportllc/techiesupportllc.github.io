@@ -76,33 +76,15 @@ export default () => (
       <FirstWrapper>
         <FirstSection>
           <PageTitle>
-            Radically different web development
+            Unlimited web development for a flat monthly price
           </PageTitle>
           <TagLine>
-            We'll build, host and maintain your website for $297 per month.
+            Techie Support is a subscription-based web development outsourcing service.
           </TagLine>
+          <Paragraph>
+            You pay $297 per month and receive quick turnaround and unlimited revisions.  No hidden fees and no headaches.  All with a 14-day money-back guarantee.
+          </Paragraph>
           <NewContactForm />
-          <Paragraph>
-            Let's face it, there are <i>a lot</i> of awful websites out there.  Maybe they fell out of the ugly tree and hit every branch on the way down.  Or maybe they're just slower than molasses.
-          </Paragraph>
-          <Paragraph>
-            We've noticed this and see an incredible opportunity to help businesses like yours.
-          </Paragraph>
-          <Paragraph>
-            <i>But what makes us different?</i>
-          </Paragraph>
-          <Paragraph>
-            We build every website with Gatsby, a JAMstack framework.
-          </Paragraph>
-          <Paragraph>
-            We don't expect you to care how the sausage is made.  The point is that JAMstack is the future of the web.  It's lean, fast and secure.
-          </Paragraph>
-          <Paragraph>
-            Don't just take our word for it.  Big names&mdash;including <i>Airbnb</i>, <i>Nike</i> and <i>PayPal</i>&mdash;use JAMstack to power their websites.
-          </Paragraph>
-          <Paragraph>
-            Our goal is to make this awesome technology available to your business at an affordable price.
-          </Paragraph>
         </FirstSection>
     </FirstWrapper>
     <SecondWrapper>
@@ -116,15 +98,15 @@ export default () => (
               Who are you?
             </SecondHeading>
             <SecondParagraph>
-              A dedicated team of web developers who want to bring the benefits of JAMstack to your business.
+              A team of expert web developers dedicated to meeting your development needs to the highest standards.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
             <SecondHeading>
-              What is JAMstack?
+              What can you do?
             </SecondHeading>
             <SecondParagraph>
-              Simply put, it's the future of the web.  It's faster and more secure than traditional platforms like WordPress.  To top it off, it gives your website awesome features like the ability to work offline and be installed on mobile devices as if it's an app.
+              When it comes to web development, just about anything.  We can help you integrate new features into your existing website or even build you a brand new one.<br /><br />A good way to check whether your request is doable or not is to ask yourself:  <i>Can I reasonably explain what I want in one email?</i><br /><br />If the answer is yes, chances are we can do it.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -137,10 +119,10 @@ export default () => (
           </SecondOuter>
           <SecondOuter>
             <SecondHeading>
-              When were you founded?
+              When will you have my development done?
             </SecondHeading>
             <SecondParagraph>
-              Way back in 2013.  It was a simpler time.
+              The exact time frame varies between development tasks.  Smaller tasks like integrating new features into your existing website usually only take a few days.  Larger tasks like building you a brand new website usually take a few weeks.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -148,7 +130,7 @@ export default () => (
               Why work with you?
             </SecondHeading>
             <SecondParagraph>
-              It's hard to answer a question like this without sounding self-serving.  The truth is that what we do&mdash;building websites&mdash;isn't unique at all.  However, the way we do it definitely is.  But we don't just do it this way for the sake of being different.  We do it this way because we believe it's truly better for you and your business.
+              We deliver high-quality web development quickly and affordably without the headaches so that you're free to focus on what matters&mdash;your business.
             </SecondParagraph>
           </SecondOuter>
           <SecondOuter>
@@ -156,7 +138,7 @@ export default () => (
               How much do you cost?
             </SecondHeading>
             <SecondParagraph>
-              Just $297 per month.  That includes quick turnaround, unlimited revisions, fast hosting and ongoing maintenance.  Best of all, there are no hidden fees, no upcharges and no headaches.
+              Just $297 per month.
             </SecondParagraph>
           </SecondOuter>
         </SecondSubWrapper>
