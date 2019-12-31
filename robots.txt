@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://techiesupport.co/sitemap.xml
-Host: https://techiesupport.co
