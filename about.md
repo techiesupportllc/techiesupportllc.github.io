@@ -4,36 +4,26 @@ title: About
 permalink: /about/
 ---
 
-Read on to learn a bit about Techie Support.
+**Want to learn a bit more about us?**
 
-# Who we are
+At the moment, it's just me:  Ben Gilstrap.
 
-At the moment, we're one man:  Ben Gilstrap.  
+<img src="/avatar.jpg" alt="Ben Gilstrap">
 
-# What we do  
-
-Most businesses don't have the time or manpower to produce content for their websites regularly.  They often turn to content writers to produce this content for them.
+Most IT companies don't have the time or manpower to produce content regularly.  They often turn to writers to produce this content for them.
 
 There are thousands of content writers available for hire online.  However, not many of them have hands-on knowledge and experience specific to the IT industry.
 
-That's where I come in.  I combine my years of experience in IT with my ability as a writer to produce quality content for your IT-related business.
+That's where I come in.  I combine my years of experience in IT with my writing ability to produce expert, exquisitely crafted and effective content for your IT company.
 
-# When we started
+I founded the company in 2013 in sunny Phoenix, Arizona, as an IT consulting business and worked with small to midsize businesses for the next four years either as their sole IT provider or as a subcontractor for other MSPs and IT firms.
 
-I founded the company in 2013.
+Content is almost like the "currency" of the internet these days.  There's a massive need for IT companies to regularly put out quality content.
 
-# Where we be
+Huge corporate IT firms often have teams of people on staff to do this.  However, many small to midsize IT companies don't have that luxury.
 
-I'm located in sunny Phoenix, Arizona.
+I decided to pivot my own business to step in and fill the need for high-quality outsourced IT content for companies like these.
 
-# Why we exist
+[Click here to check out the testimonials page and see what my clients have to say.](/testimonials)
 
-Content is like the currency of the internet these days.  There is a massive need for businesses to regularly produce quality content for their websites.
-
-Huge corporations often have teams of people on staff to do this for them.  However, many small to midsize businesses don't have that kind of manpower.
-
-I decided to step in and fill the need for high-quality outsourced IT content for businesses like these.
-
-# How clients feel
-
-[Check out the testimonials page for the specifics.](/testimonials)
+**<a href="mailto:help@techiesupport.co">Or just click here to get in touch with me!</a>**
