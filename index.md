@@ -9,6 +9,6 @@ layout: home
 
 We create expert, exquisitely crafted and effective content for your IT company.
 
-Learn more [about](/about) us.  Check out the [services](/services) we offer.  Take a look at our [pricing](/pricing).  See what a sample [contract](/contract) looks like.  Peer into our [privacy policy](/privacy-policy).  Consider our [testimonials](/testimonials).
+Learn more [about](/about) us.  Check out the [services](/services) we offer.  Take a look at our [pricing](/pricing).  See what a sample [contract](/contract) looks like.  Peer into our [privacy policy](/privacy-policy).  Have a gander at our [portfolio](/portfolio).  Consider our [testimonials](/testimonials).
 
 **<a href="mailto:help@techiesupport.co">Or just click here to get in touch with us!</a>**
