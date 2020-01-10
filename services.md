@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Services
-permalink: /services/
+permalink: /services
 ---
 
 **We offer one service specifically:  IT content writing.**

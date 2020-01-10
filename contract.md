@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contract
-permalink: /contract/
+permalink: /contract
 ---
 
 ***Below is a sample contract for your reference.  We use this contract on all projects.  It's designed to be easy to read, simple and clear with no "gotchas".***

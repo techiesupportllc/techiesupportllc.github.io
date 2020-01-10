@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
 **Want to learn a bit more about us?**

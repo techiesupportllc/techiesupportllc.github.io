@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
-permalink: /privacy-policy/
+permalink: /privacy-policy
 ---
 
 Last updated:  2019-12-31

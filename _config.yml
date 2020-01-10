@@ -24,6 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Expert, exquisitely crafted and effective content for your IT company.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:year/:month/:day/:title
 facebook_username: techiesupport
 github_username: techiesupportllc
 instagram_username: techiesupport
