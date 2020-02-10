@@ -60,7 +60,7 @@ The goal of this particular content was to raise awareness of what business Wi-F
 
 ## SCCM vs. SCOM - You Shouldn't Choose Between Them, And Here's Why
 
-This piece of content was written for an enterprise content delivery network provider.  It was designed to be an educational piece for systems administrators using Microsoft's SCCM and SCOM tools.
+This piece of content was written for an enterprise content delivery network provider.  It was designed to be an educational piece for systems administrators using Microsoft's SCCM and SCOM tools that would be posted to the company blog.
 
 The goal of this particular piece of content was to compare and contrast the two tools while answering the question of which one is the best to use in different circumstances.
 
@@ -70,8 +70,16 @@ The goal of this particular piece of content was to compare and contrast the two
 
 ## Creating a simple search app in 30 minutes using Algolia and Firebase
 
-This piece of content was written for a hackathon organizer.  It was designed to be an educational piece for developers wanting to learn how to work with search in their apps.
+This piece of content was written for a hackathon organizer.  It was designed to be an educational piece for developers wanting to learn how to work with search in their apps that would be posted to the company blog.
 
 The goal of this particular piece of content was to show how to integrate Algolia and Firebase into a modern app.  The final piece was published with edits at <a href="https://stories.mlh.io/supercharge-your-search-with-algolia-autocomplete-and-firebase-1641e04b8856">the Major League Hacking blog</a>.
 
 **[Click here to download the PDF.](/creating-a-simple-search-app.pdf)**
+
+---
+
+## The Top Three Coolest Commercial Construction Trends in 2018
+
+This piece of content was written for a commercial construction company.  It was designed to be an educational piece that would be posted to the company blog.
+
+**[Click here to download the PDF.](/commercial-construction-trends.pdf)**
